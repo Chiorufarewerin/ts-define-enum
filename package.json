@@ -1,0 +1,39 @@
+{
+  "name": "ts-define-enum",
+  "version": "0.0.1",
+  "description": "Tiny TypeScript helper to define enum-like objects with strongly typed keys/values and methods",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest",
+    "test:watch": "vitest watch",
+    "format": "prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chiorufarewerin/ts-define-enum.git"
+  },
+  "keywords": [
+    "typescript",
+    "library",
+    "enum",
+    "enum-like"
+  ],
+  "author": "Chiorufarewerin (Artur Beltsov)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chiorufarewerin/ts-define-enum/issues"
+  },
+  "homepage": "https://github.com/Chiorufarewerin/ts-define-enum#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.10"
+  }
+}
