@@ -1,4 +1,4 @@
-import { DefinedEnum, EnumInput, EnumOutput, EnumValue } from './types';
+import { DefinedEnum, EnumInput, EnumOutput, EnumValue } from './types.js';
 
 export function defineEnum<Value extends EnumValue, Input extends EnumInput<Value>>(
   input: Input & ThisType<EnumOutput<Input>>,

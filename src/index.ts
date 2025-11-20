@@ -1,2 +1,2 @@
-export { defineEnum } from './define-enum';
-export { DefinedEnum } from './types';
+export { defineEnum } from './define-enum.js';
+export { DefinedEnum } from './types.js';
